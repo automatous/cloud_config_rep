@@ -4,6 +4,8 @@ server:
 spring:
   application:
     name: cloud-config-read
+  rabbitmq:
+    host: 192.168.8.131
 
 logging:
   level:
