@@ -13,4 +13,11 @@ logging:
       example:
         demo: debug
 
+# 动态刷新配置 ---需要忽略权限拦截
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
+
 stuname: sakura
