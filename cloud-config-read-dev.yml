@@ -1,0 +1,12 @@
+server:
+  port: 20202
+
+spring:
+  application:
+    name: cloud-config-read
+
+logging:
+  level:
+    com:
+      example:
+        demo: debug
