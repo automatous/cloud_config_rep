@@ -13,4 +13,10 @@ logging:
       example:
         demo: debug
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh
+
 stuname: yukino
