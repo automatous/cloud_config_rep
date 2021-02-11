@@ -12,3 +12,5 @@ logging:
     com:
       example:
         demo: debug
+
+stuname=aa
